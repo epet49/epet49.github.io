@@ -20,6 +20,20 @@
 
 }
 
+/*separaciones en pantalla chica*/
+@media screen and (max-width: 600px) {
+  .logoytitulo { 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .col.contacto {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .col.mapa {
+    margin-bottom: 4rem;
+  }
+}
 
 /*para los iframes*/
 @media screen and (max-width: 750px) {
@@ -71,8 +85,8 @@
 
 
 .mapaypromo {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .logo {
@@ -81,7 +95,7 @@
 }
 
 .contactos {
-  margin-top: 15px;
+  margin-top: 4rem;
 }
 
 .mini-sub{
