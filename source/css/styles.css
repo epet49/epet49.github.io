@@ -1,0 +1,122 @@
+#principal {
+  margin: 20px;
+  border:  1px;
+  background: #ede7d9;
+  border-radius: 15px;
+}
+.navbar-principal {
+  margin-bottom: 15px;
+}
+.navbar {
+
+  border-radius: 15px;
+}
+
+/*para la navbar grande*/
+@media screen and (min-width: 1000px) {
+  nav {
+    border-radius: 15px;
+  }
+
+}
+
+
+/*para los iframes*/
+@media screen and (max-width: 750px) {
+  iframe {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  .row {
+    display: block;
+  }
+}
+@media screen and (min-width: 800px) {
+  .iframe-piola {
+    border: 10px solid #84a98c;
+    border-radius: 20px;
+  }
+
+}
+
+.logoytitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo-epet {
+  padding: 15px;
+  width: 15rem;
+}
+/*para pantallas pequeñas*/
+@media screen and (max-width: 600px){
+  #logo-epet {
+    width: 10rem;
+  }
+  .texto-logo {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 600px){
+  .texto-logo {
+    font-size: 4rem;
+  }
+}
+
+
+
+.mapaypromo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.contactos {
+  margin-top: 15px;
+}
+
+.mini-sub{
+ font-weight: 600; 
+}
+
+.mapa .promos .contactos .about {
+  margin-bottom: 200px;
+}
+
+.separacion {
+  background-color: #84a98c73;
+  height: 15px;
+  width: auto;
+  border-radius: 6px;
+}
+
+
+#footer-fachero {
+  margin-top: 100px;
+  width: 100%;
+  height: 25vh;
+  background: #445748;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: rgba(255, 255, 255, 0.43);
+}
+
+
+
+
+
+

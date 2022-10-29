@@ -1,0 +1,17 @@
+@media (max-width: 448px) {
+  table {
+      width: auto !important;
+      font-size: 0.7rem;
+  }
+}
+@media (max-width: 400px) {
+  table {
+      width: auto !important;
+      font-size: 0.5rem;
+  }
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+}

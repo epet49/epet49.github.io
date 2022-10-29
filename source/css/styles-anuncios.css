@@ -1,0 +1,21 @@
+.contenedor-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 15px;
+  margin: 15px;
+}
+
+iframe {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+.row {
+  display: block;
+ }

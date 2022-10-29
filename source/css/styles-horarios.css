@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+  border-radius: 15px;
+} 
+
+.card-title {
+  font-size: 5rem;
+}
+
+.btn.btn-primary {
+  background-color: #52796f;
+  border: 1px solid #52796f;
+}
