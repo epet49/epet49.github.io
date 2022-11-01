@@ -19,3 +19,14 @@ iframe {
 .row {
   display: block;
  }
+
+ .contenedor-publicaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn.btn-primary {
+  background-color: #52796f;
+  border: 1px solid #52796f;
+}

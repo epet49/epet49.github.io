@@ -55,13 +55,6 @@
     display: block;
   }
 }
-@media screen and (min-width: 800px) {
-  .iframe-piola {
-    border: 10px solid #84a98c;
-    border-radius: 20px;
-  }
-
-}
 
 .logoytitulo {
   display: flex;
@@ -132,6 +125,7 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  color: rgba(255, 255, 255, 0.43);
 }
 
 footer h2 {
