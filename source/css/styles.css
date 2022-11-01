@@ -42,7 +42,7 @@
   }
 }
 
-/*para los iframes*/
+/*para los iframes responsivos*/
 @media screen and (max-width: 750px) {
   iframe {
       max-width: 100%;
