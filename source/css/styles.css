@@ -35,6 +35,13 @@
   }
 }
 
+/*Para los margenes de la pantalla principal*/
+@media screen and (max-width: 600px) {
+  #principal {
+    margin: 10px;
+  }
+}
+
 /*para los iframes*/
 @media screen and (max-width: 750px) {
   iframe {
